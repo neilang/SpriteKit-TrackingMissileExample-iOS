@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		287094A518F8C671004A6AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094A418F8C671004A6AF9 /* Foundation.framework */; };
+		287094A718F8C671004A6AF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094A618F8C671004A6AF9 /* CoreGraphics.framework */; };
+		287094A918F8C671004A6AF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094A818F8C671004A6AF9 /* UIKit.framework */; };
+		287094AB18F8C671004A6AF9 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094AA18F8C671004A6AF9 /* SpriteKit.framework */; };
+		287094B118F8C671004A6AF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287094AF18F8C671004A6AF9 /* InfoPlist.strings */; };
+		287094B318F8C671004A6AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287094B218F8C671004A6AF9 /* main.m */; };
+		287094B718F8C671004A6AF9 /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287094B618F8C671004A6AF9 /* NAAppDelegate.m */; };
+		287094BA18F8C671004A6AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287094B818F8C671004A6AF9 /* Main.storyboard */; };
+		287094BD18F8C671004A6AF9 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287094BC18F8C671004A6AF9 /* NAViewController.m */; };
+		287094C018F8C671004A6AF9 /* NAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 287094BF18F8C671004A6AF9 /* NAMyScene.m */; };
+		287094C218F8C671004A6AF9 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 287094C118F8C671004A6AF9 /* Spaceship.png */; };
+		287094C418F8C671004A6AF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287094C318F8C671004A6AF9 /* Images.xcassets */; };
+		287094CB18F8C671004A6AF9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094CA18F8C671004A6AF9 /* XCTest.framework */; };
+		287094CC18F8C671004A6AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094A418F8C671004A6AF9 /* Foundation.framework */; };
+		287094CD18F8C671004A6AF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287094A818F8C671004A6AF9 /* UIKit.framework */; };
+		287094D518F8C671004A6AF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 287094D318F8C671004A6AF9 /* InfoPlist.strings */; };
+		287094D718F8C671004A6AF9 /* TrackingMissile_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287094D618F8C671004A6AF9 /* TrackingMissile_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287094CE18F8C671004A6AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2870949918F8C671004A6AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287094A018F8C671004A6AF9;
+			remoteInfo = "TrackingMissile-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		287094A118F8C671004A6AF9 /* TrackingMissile-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrackingMissile-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287094A418F8C671004A6AF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		287094A618F8C671004A6AF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		287094A818F8C671004A6AF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		287094AA18F8C671004A6AF9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		287094AE18F8C671004A6AF9 /* TrackingMissile-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMissile-iOS-Info.plist"; sourceTree = "<group>"; };
+		287094B018F8C671004A6AF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		287094B218F8C671004A6AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		287094B418F8C671004A6AF9 /* TrackingMissile-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackingMissile-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		287094B518F8C671004A6AF9 /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAppDelegate.h; sourceTree = "<group>"; };
+		287094B618F8C671004A6AF9 /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAppDelegate.m; sourceTree = "<group>"; };
+		287094B918F8C671004A6AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287094BB18F8C671004A6AF9 /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAViewController.h; sourceTree = "<group>"; };
+		287094BC18F8C671004A6AF9 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
+		287094BE18F8C671004A6AF9 /* NAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAMyScene.h; sourceTree = "<group>"; };
+		287094BF18F8C671004A6AF9 /* NAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAMyScene.m; sourceTree = "<group>"; };
+		287094C118F8C671004A6AF9 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		287094C318F8C671004A6AF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		287094C918F8C671004A6AF9 /* TrackingMissile-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrackingMissile-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287094CA18F8C671004A6AF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		287094D218F8C671004A6AF9 /* TrackingMissile-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingMissile-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		287094D418F8C671004A6AF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		287094D618F8C671004A6AF9 /* TrackingMissile_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingMissile_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2870949E18F8C671004A6AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094A718F8C671004A6AF9 /* CoreGraphics.framework in Frameworks */,
+				287094A918F8C671004A6AF9 /* UIKit.framework in Frameworks */,
+				287094AB18F8C671004A6AF9 /* SpriteKit.framework in Frameworks */,
+				287094A518F8C671004A6AF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287094C618F8C671004A6AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094CB18F8C671004A6AF9 /* XCTest.framework in Frameworks */,
+				287094CD18F8C671004A6AF9 /* UIKit.framework in Frameworks */,
+				287094CC18F8C671004A6AF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2870949818F8C671004A6AF9 = {
+			isa = PBXGroup;
+			children = (
+				287094AC18F8C671004A6AF9 /* TrackingMissile-iOS */,
+				287094D018F8C671004A6AF9 /* TrackingMissile-iOSTests */,
+				287094A318F8C671004A6AF9 /* Frameworks */,
+				287094A218F8C671004A6AF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		287094A218F8C671004A6AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287094A118F8C671004A6AF9 /* TrackingMissile-iOS.app */,
+				287094C918F8C671004A6AF9 /* TrackingMissile-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287094A318F8C671004A6AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				287094A418F8C671004A6AF9 /* Foundation.framework */,
+				287094A618F8C671004A6AF9 /* CoreGraphics.framework */,
+				287094A818F8C671004A6AF9 /* UIKit.framework */,
+				287094AA18F8C671004A6AF9 /* SpriteKit.framework */,
+				287094CA18F8C671004A6AF9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		287094AC18F8C671004A6AF9 /* TrackingMissile-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				287094B518F8C671004A6AF9 /* NAAppDelegate.h */,
+				287094B618F8C671004A6AF9 /* NAAppDelegate.m */,
+				287094B818F8C671004A6AF9 /* Main.storyboard */,
+				287094BB18F8C671004A6AF9 /* NAViewController.h */,
+				287094BC18F8C671004A6AF9 /* NAViewController.m */,
+				287094BE18F8C671004A6AF9 /* NAMyScene.h */,
+				287094BF18F8C671004A6AF9 /* NAMyScene.m */,
+				287094C118F8C671004A6AF9 /* Spaceship.png */,
+				287094C318F8C671004A6AF9 /* Images.xcassets */,
+				287094AD18F8C671004A6AF9 /* Supporting Files */,
+			);
+			path = "TrackingMissile-iOS";
+			sourceTree = "<group>";
+		};
+		287094AD18F8C671004A6AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287094AE18F8C671004A6AF9 /* TrackingMissile-iOS-Info.plist */,
+				287094AF18F8C671004A6AF9 /* InfoPlist.strings */,
+				287094B218F8C671004A6AF9 /* main.m */,
+				287094B418F8C671004A6AF9 /* TrackingMissile-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287094D018F8C671004A6AF9 /* TrackingMissile-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				287094D618F8C671004A6AF9 /* TrackingMissile_iOSTests.m */,
+				287094D118F8C671004A6AF9 /* Supporting Files */,
+			);
+			path = "TrackingMissile-iOSTests";
+			sourceTree = "<group>";
+		};
+		287094D118F8C671004A6AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287094D218F8C671004A6AF9 /* TrackingMissile-iOSTests-Info.plist */,
+				287094D318F8C671004A6AF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287094A018F8C671004A6AF9 /* TrackingMissile-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287094DA18F8C671004A6AF9 /* Build configuration list for PBXNativeTarget "TrackingMissile-iOS" */;
+			buildPhases = (
+				2870949D18F8C671004A6AF9 /* Sources */,
+				2870949E18F8C671004A6AF9 /* Frameworks */,
+				2870949F18F8C671004A6AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrackingMissile-iOS";
+			productName = "TrackingMissile-iOS";
+			productReference = 287094A118F8C671004A6AF9 /* TrackingMissile-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287094C818F8C671004A6AF9 /* TrackingMissile-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287094DD18F8C671004A6AF9 /* Build configuration list for PBXNativeTarget "TrackingMissile-iOSTests" */;
+			buildPhases = (
+				287094C518F8C671004A6AF9 /* Sources */,
+				287094C618F8C671004A6AF9 /* Frameworks */,
+				287094C718F8C671004A6AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287094CF18F8C671004A6AF9 /* PBXTargetDependency */,
+			);
+			name = "TrackingMissile-iOSTests";
+			productName = "TrackingMissile-iOSTests";
+			productReference = 287094C918F8C671004A6AF9 /* TrackingMissile-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2870949918F8C671004A6AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Neil Ang";
+				TargetAttributes = {
+					287094C818F8C671004A6AF9 = {
+						TestTargetID = 287094A018F8C671004A6AF9;
+					};
+				};
+			};
+			buildConfigurationList = 2870949C18F8C671004A6AF9 /* Build configuration list for PBXProject "TrackingMissile-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2870949818F8C671004A6AF9;
+			productRefGroup = 287094A218F8C671004A6AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287094A018F8C671004A6AF9 /* TrackingMissile-iOS */,
+				287094C818F8C671004A6AF9 /* TrackingMissile-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2870949F18F8C671004A6AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094B118F8C671004A6AF9 /* InfoPlist.strings in Resources */,
+				287094C418F8C671004A6AF9 /* Images.xcassets in Resources */,
+				287094C218F8C671004A6AF9 /* Spaceship.png in Resources */,
+				287094BA18F8C671004A6AF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287094C718F8C671004A6AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094D518F8C671004A6AF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2870949D18F8C671004A6AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094BD18F8C671004A6AF9 /* NAViewController.m in Sources */,
+				287094C018F8C671004A6AF9 /* NAMyScene.m in Sources */,
+				287094B318F8C671004A6AF9 /* main.m in Sources */,
+				287094B718F8C671004A6AF9 /* NAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287094C518F8C671004A6AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287094D718F8C671004A6AF9 /* TrackingMissile_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287094CF18F8C671004A6AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287094A018F8C671004A6AF9 /* TrackingMissile-iOS */;
+			targetProxy = 287094CE18F8C671004A6AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		287094AF18F8C671004A6AF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287094B018F8C671004A6AF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		287094B818F8C671004A6AF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287094B918F8C671004A6AF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287094D318F8C671004A6AF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287094D418F8C671004A6AF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287094D818F8C671004A6AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		287094D918F8C671004A6AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287094DB18F8C671004A6AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingMissile-iOS/TrackingMissile-iOS-Prefix.pch";
+				INFOPLIST_FILE = "TrackingMissile-iOS/TrackingMissile-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		287094DC18F8C671004A6AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingMissile-iOS/TrackingMissile-iOS-Prefix.pch";
+				INFOPLIST_FILE = "TrackingMissile-iOS/TrackingMissile-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		287094DE18F8C671004A6AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingMissile-iOS.app/TrackingMissile-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingMissile-iOS/TrackingMissile-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackingMissile-iOSTests/TrackingMissile-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		287094DF18F8C671004A6AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingMissile-iOS.app/TrackingMissile-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingMissile-iOS/TrackingMissile-iOS-Prefix.pch";
+				INFOPLIST_FILE = "TrackingMissile-iOSTests/TrackingMissile-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2870949C18F8C671004A6AF9 /* Build configuration list for PBXProject "TrackingMissile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287094D818F8C671004A6AF9 /* Debug */,
+				287094D918F8C671004A6AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287094DA18F8C671004A6AF9 /* Build configuration list for PBXNativeTarget "TrackingMissile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287094DB18F8C671004A6AF9 /* Debug */,
+				287094DC18F8C671004A6AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		287094DD18F8C671004A6AF9 /* Build configuration list for PBXNativeTarget "TrackingMissile-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287094DE18F8C671004A6AF9 /* Debug */,
+				287094DF18F8C671004A6AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2870949918F8C671004A6AF9 /* Project object */;
+}
